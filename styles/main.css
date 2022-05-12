@@ -45,21 +45,146 @@ list-style: none;
 
 .main_nav_item{
 display: inline-block;
-margin: 0 16px;
-}
+margin: 8px 16px;
+font-size: larger;}
 
-.main_nav_items_style{
+.main_nav_items a{
+    color: rgb(141, 177, 231);
 text-decoration: none;
-color: rgb(141, 177, 231);
-
 }
 
 .main_nav_items a:hover,
 .main_nav_items a:active{
-color: white;
+color: rgb(182, 194, 212);
 }
 
-p::first-letter {
-    color: red;
-    font-size: 20px;
+
+.main_nav_items_style--Account a{
+background: whitesmoke;
+color: rgb(55, 113, 199);
+text-decoration: none;
+border-radius: 8px;
+padding: 8px 16px;
+}
+
+.main_nav_items_style--Account a:hover,
+.main_nav_items_style--Account a:active{
+color:rgb(3, 38, 104) ;
+}
+
+#overview{
+background-image: url(../image/overview2.jpg);
+width: 100%;
+height: 600px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.section_title{
+    color: rgb(3, 38, 104);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.plan_list{
+    width: 65%;
+    margin: auto;
+    
+}
+.plan{
+width: 30%;
+display: inline-block;
+vertical-align: middle;
+padding: 16px;
+margin: 8px;
+text-align: center;
+color: #424242;
+box-shadow: 5px 25px 15px rgb(141, 177, 231);
+border-radius: 10px;
+
+}
+
+.middle_plan{
+border-radius: 5px;
+background-color: rgb(3, 38, 104);
+color: aliceblue;
+font-family: sans-serif;
+}
+
+.highlighted_plan{
+background-color: rgb(141, 177, 231);
+padding: 4px;
+margin: 0px;
+border-radius: 5px;
+color: #424242;
+}
+
+.plan_feature{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.plan_features{
+padding: 0;
+margin: 8px 8px;
+}
+
+.plan_btn{
+color:rgb(3, 38, 104) ;
+background: rgb(141, 177, 231);
+padding: 8px 16px;
+margin: 8px;
+border-radius: 5px;
+outline: none;
+font: inherit;
+font-weight: bold;
+border: none;
+}
+
+#features{
+
+    background: rgb(226, 226, 226);
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#features .section_title{
+    color: rgb(3, 38, 104);
+    margin: 30px;
+    text-align: center;
+    
+}
+
+.list_services{
+display: inline;
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+.services{
+    display: inline-block;
+    width: 32%;
+    font-size: large;
+    margin-top: 32px;
+
+}
+
+.description{
+color:#424242 ;
+font-weight: bold;
+text-align: center;
+}
+
+.image_format{
+
+background:rgb(3, 38, 104) ;
+height: 128px;
+width: 128px;
+border-radius: 50%;
+margin: auto;
 }
