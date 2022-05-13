@@ -1,0 +1,75 @@
+main{
+
+    padding-top: 32px;
+}
+
+.plan{
+    width: 50%;
+margin: 8px 0px;
+padding: 16px 0;
+border: 3px solid rgb(3, 38, 104);
+border-radius: 5px;
+text-align: center;
+z-index: 0;
+position: relative;
+}
+
+.plan_title{
+   color:  rgb(3, 38, 104) ;
+}
+
+.plan a{
+text-decoration: none;
+color: #424242;
+display: block;
+}
+
+.plan_info {
+padding: 16px;
+border: 1px solid rgb(3, 38, 104);
+color: white;
+background-color: #424242;
+}
+
+.plan_price_circle{
+background-color: rgb(3, 38, 104);
+width: 128px;
+height: 128px;
+border-radius: 50%;
+margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+#translation {
+    float: right;
+}
+
+.background{
+width: 100%;
+position: fixed;
+height: 100%;
+background-image: url(../../image/overview4.jpg);
+background-position: center;
+z-index: -1;
+}
+
+.plan_badge{
+    position:  absolute;
+    background-color: crimson;
+    color: black;
+    border-radius: 5px;
+    top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 20px;
+font-weight: bold;
+font-size: larger;
+}
+
+#translation .plan_badge{
+    background-color: blueviolet;
+}
+#paraphrase .plan_badge{
+    background-color: goldenrod;
+}
