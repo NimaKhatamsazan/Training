@@ -1,13 +1,11 @@
 
 
 #overview{
-background-image: url(../image/overview1.png);
 width: 100%;
 height: 600px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
+/* background: url(../image/overview1.png) center/cover no-repeat fixed; */
+background: linear-gradient(to bottom , rgb(141, 177, 231), transparent),
+url(../image/overview1.png) center/cover no-repeat fixed;
 }
 
 .section_title{

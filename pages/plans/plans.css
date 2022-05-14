@@ -50,9 +50,10 @@ margin: auto;
 width: 100%;
 position: fixed;
 height: 100%;
-background-image: url(../../image/overview4.jpg);
+/* background-image: url(../../image/overview4.jpg); */
 background-position: center;
 z-index: -1;
+background: linear-gradient(to bottom , rgb(141, 177, 231), white, transparent);
 }
 
 .plan_badge{

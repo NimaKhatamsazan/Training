@@ -1,0 +1,57 @@
+main {
+    padding-top: 40px;
+    background: linear-gradient(to bottom , rgb(141, 177, 231), white, transparent);
+}
+.main_subject{
+font-size: 28px;
+text-align: center;
+background: rgb(3, 38, 104);
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+position: fixed;
+left: 35%;
+margin: 20px;
+}
+.testimonial{
+    margin: 0px 28px;
+padding: 18px;
+}
+
+.image_container{
+width: 50%; 
+display: inline-block;   
+vertical-align: middle;
+
+}
+.image_customer{
+width: 50%;
+border-radius: 50px;
+vertical-align: middle;
+box-shadow: 3px 3px 10px rgb(3, 38, 104);
+filter:brightness(100%);
+}
+
+.testimonial:first-of-type{
+    margin-top: 98px;
+}
+.customer_info{
+    display: inline-block;
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+width: 20%;
+}
+
+.customer_name{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 38, 104);
+}
+.customer_subtitle{
+    color: #424242;
+}
+
+
+
