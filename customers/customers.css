@@ -1,26 +1,28 @@
 main {
-    padding-top: 40px;
+    padding-top: 3rem;
     background: linear-gradient(to bottom , rgb(141, 177, 231), white, transparent);
 }
 .main_subject{
-font-size: 28px;
+font-size: 1.6rem;
 text-align: center;
 background: rgb(3, 38, 104);
     color: whitesmoke;
     text-decoration: none;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 0rem 1rem;
 position: fixed;
 left: 35%;
-margin: 20px;
+margin: 1.2rem;
 }
 .testimonial{
-    margin: 0px 28px;
+    margin: 0rem 1.5rem;
 padding: 18px;
 }
 
 .image_container{
 width: 50%; 
+max-width: 500px;
+min-width: 300px ;
 display: inline-block;   
 vertical-align: middle;
 
@@ -34,22 +36,26 @@ filter:brightness(100%);
 }
 
 .testimonial:first-of-type{
-    margin-top: 98px;
+    margin-top: 5rem;
 }
 .customer_info{
     display: inline-block;
-    padding: 0px;
+    padding: 0rem;
     text-align: left;
     vertical-align: middle;
 width: 20%;
 }
 
 .customer_name{
+    font-size: 1.6rem;
+
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(3, 38, 104);
 }
 .customer_subtitle{
+    font-size: 1.2rem;
+
     color: #424242;
 }
 
