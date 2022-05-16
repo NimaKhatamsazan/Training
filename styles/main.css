@@ -3,8 +3,17 @@
 #overview{
 width: 100vw;
 height: 80vh;
+
 background: linear-gradient(to bottom , rgb(141, 177, 231), transparent),
 url(../image/overview1.png) center/cover no-repeat fixed;
+}
+
+@media (min-width: 40rem){
+    #overview {
+        width: 100vw;
+        height: 80vh;
+    }
+
 }
 
 .section_title{
@@ -19,10 +28,10 @@ url(../image/overview1.png) center/cover no-repeat fixed;
     margin: auto;
     
 }
+
+
 .plan{
-width: 30%;
-display: inline-block;
-vertical-align: middle;
+width: 100%;
 padding: 16px;
 margin: 8px;
 text-align: center;
@@ -31,6 +40,20 @@ box-shadow: 5px 25px 15px rgb(141, 177, 231);
 border-radius: 10px;
 
 }
+
+@media (min-width:40rem)
+
+ { .plan {
+    width: 30%;
+display: inline-block;
+vertical-align: middle;
+padding: 16px;
+margin: 8px;
+text-align: center;
+color: #424242;
+box-shadow: 5px 25px 15px rgb(141, 177, 231);
+border-radius: 10px;
+}}
 
 .middle_plan{
 border-radius: 5px;
@@ -76,6 +99,8 @@ border: none;
     padding: 16px;
 }
 
+
+
 #features .section_title{
     color: rgb(3, 38, 104);
     margin: 30px;
@@ -92,12 +117,23 @@ text-align: center;
 }
 
 .services{
-    display: inline-block;
-    width: 32%;
     font-size: large;
     margin-top: 32px;
+ 
+}
+
+@media (min-width:40rem){
+
+    .services{
+        font-size: large;
+        margin-top: 32px;
+        display: inline-block;
+        width: 32%;
+    }
 
 }
+
+
 
 .description{
 color:#424242 ;
