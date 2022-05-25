@@ -69,6 +69,11 @@
   margin-top: 80px;
   padding: 16px;
 }
+#features .section_title {
+  color: rgb(3, 38, 104);
+  margin: 30px;
+  text-align: center;
+}
 
 #features .section_title {
   color: rgb(3, 38, 104);

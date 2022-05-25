@@ -75,12 +75,12 @@ $footer-background-color: #424242;
   background: rgb(226, 226, 226);
   margin-top: 80px;
   padding: 16px;
-}
 
-#features .section_title {
-  color: $first-color-website;
-  margin: 30px;
-  text-align: center;
+  .section_title {
+    color: $first-color-website;
+    margin: 30px;
+    text-align: center;
+  }
 }
 
 .list_services {
