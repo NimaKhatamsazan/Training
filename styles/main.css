@@ -1,7 +1,8 @@
 #overview {
   width: 100vw;
   height: 80vh;
-  background: linear-gradient(to bottom, rgb(141, 177, 231), transparent), url(../image/overview1.png) center/cover no-repeat fixed;
+  background: linear-gradient(to bottom, rgb(141, 177, 231), transparent),
+    url(../image/overview1.png) center/cover no-repeat fixed;
 }
 
 .section_title {
@@ -69,12 +70,6 @@
   margin-top: 80px;
   padding: 16px;
 }
-#features .section_title {
-  color: rgb(3, 38, 104);
-  margin: 30px;
-  text-align: center;
-}
-
 #features .section_title {
   color: rgb(3, 38, 104);
   margin: 30px;
@@ -162,6 +157,7 @@
 .modal_actions {
   text-align: center;
   padding: 1rem;
+  transition: all 3s;
 }
 
 .modal_action {

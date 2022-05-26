@@ -1,8 +1,8 @@
-$back-drop-background: rgb(0, 0, 0, 0.5);
-$first-color-website: rgb(3, 38, 104);
-$second-color-website: rgb(141, 177, 231);
-$main-font: Arial, Helvetica, sans-serif;
-$footer-background-color: #424242;
+@import "_variables.scss";
+@mixin display-flex() {
+  display: flex;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ main {
   width: 100%;
   position: fixed;
   z-index: 1;
-  display: flex;
+  @include display-flex();
   align-items: center;
   justify-content: space-between;
 }
@@ -39,11 +39,11 @@ main {
   font-size: 22px;
 }
 .main_nav {
-  display: flex;
+  @include display-flex();
 }
 
 .main_nav_items {
-  display: flex;
+  @include display-flex();
   padding: 0;
   margin: 0;
   list-style: none;
@@ -66,7 +66,7 @@ main {
 .main_nav_items_style--Account {
   a {
     background: whitesmoke;
-    color: rgb(55, 113, 199);
+    color: $first-color-website;
     text-decoration: none;
     border-radius: 8px;
     padding: 8px 16px;

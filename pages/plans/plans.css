@@ -1,76 +1,83 @@
-main{
-
-    padding-top: 2rem;
+main {
+  padding-top: 2rem;
 }
 
-.plan{
-    width: 50%;
-margin: 0.5rem 0rem;
-padding: 1rem 0rem;
-border: 3px solid rgb(3, 38, 104);
-border-radius: 5px;
-text-align: center;
-z-index: 0;
-position: relative;
+.plan {
+  width: 50%;
+  margin: 0.5rem 0rem;
+  padding: 1rem 0rem;
+  border: 3px solid rgb(3, 38, 104);
+  border-radius: 5px;
+  text-align: center;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
 }
 
-.plan_title{
-   color:  rgb(3, 38, 104) ;
+.plan_title {
+  color: rgb(3, 38, 104);
 }
 
-.plan a{
-text-decoration: none;
-color: #424242;
-display: block;
+.plan a {
+  text-decoration: none;
+  color: #424242;
+  display: block;
 }
 
 .plan_info {
-padding: 1rem;
-border: 1px solid rgb(3, 38, 104);
-color: white;
-background-color: #424242;
+  padding: 1rem;
+  border: 1px solid rgb(3, 38, 104);
+  color: white;
+  background-color: #424242;
 }
 
-.plan_price_circle{
-background-color: rgb(3, 38, 104);
-width: 8rem;
-height: 8rem;
-border-radius: 50%;
-margin: auto;
+.plan_price_circle {
+  background-color: rgb(3, 38, 104);
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin: auto;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 #translation {
-    float: right;
+  float: right;
 }
 
-.background{
-width: 100%;
-position: fixed;
-height: 100%;
-/* background-image: url(../../image/overview4.jpg); */
-background-position: center;
-z-index: -1;
-background: linear-gradient(to bottom , rgb(141, 177, 231), white, transparent);
+.background {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  /* background-image: url(../../image/overview4.jpg); */
+  background-position: center;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    rgb(141, 177, 231),
+    white,
+    transparent
+  );
 }
 
-.plan_badge{
-    position:  absolute;
-    background-color: crimson;
-    color: black;
-    border-radius: 5px;
-    top: 1.2rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    left: 1.2rem;
-font-weight: bold;
-font-size: larger;
+.plan_badge {
+  position: absolute;
+  background-color: crimson;
+  color: black;
+  border-radius: 5px;
+  top: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  left: 1.2rem;
+  font-weight: bold;
+  font-size: larger;
+  width: 13rem;
+  transform: rotateZ(-25deg) translateX(-3rem) translateY(-2rem);
 }
 
-#translation .plan_badge{
-    background-color: blueviolet;
+#translation .plan_badge {
+  background-color: blueviolet;
 }
-#paraphrase .plan_badge{
-    background-color: goldenrod;
+#paraphrase .plan_badge {
+  background-color: goldenrod;
 }

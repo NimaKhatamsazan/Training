@@ -1,9 +1,4 @@
-$back-drop-background: rgb(0, 0, 0, 0.5);
-$first-color-website: rgb(3, 38, 104);
-$second-color-website: rgb(141, 177, 231);
-$main-font: Arial, Helvetica, sans-serif;
-$footer-background-color: #424242;
-
+@import "_variables.scss";
 #overview {
   width: 100vw;
   height: 80vh;
@@ -153,6 +148,7 @@ $footer-background-color: #424242;
   width: 40%;
   border-radius: 10px;
   box-shadow: 1px 1px 1px $first-color-website;
+  transition: all 3s;
 }
 
 .modal_title {
