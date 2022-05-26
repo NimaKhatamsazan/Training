@@ -140,7 +140,9 @@
   position: fixed;
   padding: 1.7rem;
   margin: 1.5rem;
-  display: none;
+  opacity: 0;
+  transform: translateY(-10rem);
+  transition: opacity 0.3s, transform 0.5s;
   z-index: 200;
   top: 20%;
   left: 30%;
@@ -157,7 +159,6 @@
 .modal_actions {
   text-align: center;
   padding: 1rem;
-  transition: all 3s;
 }
 
 .modal_action {

@@ -7,7 +7,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-areas: "header" "main" "footer";
-  grid-template-rows: 1rem auto fit-content(8rem);
+  grid-template-rows: auto auto fit-content(8rem);
 }
 
 main {
@@ -15,7 +15,7 @@ main {
 }
 
 .main-header {
-  padding: 8px 16px;
+  padding: 16px 16px;
   background-color: rgb(3, 38, 104);
   width: 100%;
   position: fixed;
@@ -55,7 +55,9 @@ main {
 .main_nav_items a:active {
   color: rgb(182, 194, 212);
 }
-
+.main_nav_items_style--Account {
+  animation: account 0.3s 2s 5;
+}
 .main_nav_items_style--Account a {
   background: whitesmoke;
   color: rgb(3, 38, 104);
@@ -108,4 +110,19 @@ main {
   display: none;
 }
 
+.open {
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+@keyframes account {
+  from {
+    transform: rotateX(0);
+  }
+
+  to {
+    transform: rotateX(50deg);
+  }
+}
 /*# sourceMappingURL=shared.css.map */
